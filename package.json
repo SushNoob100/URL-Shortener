@@ -22,7 +22,7 @@
     "analytics",
     "full-stack"
   ],
-  "author": "Your Name",
+  "author": "Sushant",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.0"
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/url-shortener.git"
+    "url": "https://github.com/SushNoob100/URL-Shortener.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/url-shortener/issues"
+    "url": "https://github.com/SushNoob100/URL-Shortener/issues"
   },
-  "homepage": "https://github.com/yourusername/url-shortener#readme"
+  "homepage": "https://github.com/SushNoob100/URL-Shortener#readme"
 }
