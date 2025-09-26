@@ -1,0 +1,41 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A full-stack URL shortener application with analytics",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd url-shortener-backend && npm start",
+    "client": "cd url-shortener-frontend && npm start",
+    "build": "cd url-shortener-frontend && npm run build",
+    "install-server": "cd url-shortener-backend && npm install",
+    "install-client": "cd url-shortener-frontend && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "start": "cd url-shortener-backend && npm start"
+  },
+  "keywords": [
+    "url-shortener",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "analytics",
+    "full-stack"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/url-shortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/url-shortener/issues"
+  },
+  "homepage": "https://github.com/yourusername/url-shortener#readme"
+}
